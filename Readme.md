@@ -32,17 +32,18 @@ Push_swap is a sorting algorithm project at 42 Paris. The goal is to sort a stac
 ## Installation
 
 Clone the repository and compile the program:
-`git clone https://github.com/Dang-Hai-Tran/pushswap_42.git`
-`cd pushswap_42`
-`make`
+
+1. `git clone https://github.com/Dang-Hai-Tran/pushswap_42.git`
+2. `cd pushswap_42`
+3. `make`
 
 ## Usage
 
-To use push_swap:
-`./push_swap 2 1 3 6 5 8`
-To use the checker:
-`make bonus`
-`./push_swap 2 1 3 6 5 8 | ./checker 2 1 3 6 5 8`
+1. To use push_swap:
+   `./push_swap 2 1 3 6 5 8`
+2. To use the checker:
+   `make bonus` and then
+   `./push_swap 2 1 3 6 5 8 | ./checker 2 1 3 6 5 8`
 
 ## Project Structure
 
