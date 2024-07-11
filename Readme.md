@@ -33,17 +33,17 @@ Push_swap is a sorting algorithm project at 42 Paris. The goal is to sort a stac
 
 Clone the repository and compile the program:
 
-1. `git clone https://github.com/Dang-Hai-Tran/pushswap_42.git`
-2. `cd pushswap_42`
-3. `make`
+-   `git clone https://github.com/Dang-Hai-Tran/pushswap_42.git`
+-   `cd pushswap_42`
+-   `make`
 
 ## Usage
 
-1. To use push_swap:
-   `./push_swap 2 1 3 6 5 8`
-2. To use the checker:
-   `make bonus` and then
-   `./push_swap 2 1 3 6 5 8 | ./checker 2 1 3 6 5 8`
+-   To use push_swap:
+    `./push_swap 2 1 3 6 5 8`
+-   To use the checker:
+    `make bonus` and then
+    `./push_swap 2 1 3 6 5 8 | ./checker 2 1 3 6 5 8`
 
 ## Project Structure
 
@@ -63,9 +63,9 @@ The sorting algorithm varies based on the number of integers:
     1. Push all elements except 3 from stack A to stack B
     2. Sort the remaining 3 elements in stack A
     3. For each element in stack B:
-       a. Calculate the number of rotations needed in both stacks to insert the element in the correct position
-       b. Choose the element that requires the least number of operations
-       c. Perform the rotations and push the element back to stack A
+        - Calculate the number of rotations needed in both stacks to insert the element in the correct position
+        - Choose the element that requires the least number of operations
+        - Perform the rotations and push the element back to stack A
     4. Perform final rotations to ensure the smallest element is at the top of stack A
 
 Key features of the algorithm for larger sets:
